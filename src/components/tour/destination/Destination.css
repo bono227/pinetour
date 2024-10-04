@@ -1,0 +1,29 @@
+#destination-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#destination-container h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  color: #16a94a;
+  width: 56px;
+  height: 56px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#destination-container h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#destination-container p {
+  font-size: 12px;
+  color: #777777;
+}

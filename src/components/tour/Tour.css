@@ -1,0 +1,24 @@
+#tour-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+  gap: 100px;
+}
+#tour-text {
+  width: 358px;
+}
+#tour-text h4 {
+  font-size: 24px;
+  margin: 0;
+  color: #ababab;
+}
+
+#tour-text h2 {
+  font-size: 48px;
+}
+#tour-map img {
+  width: 692px;
+  height: 845px;
+  border-radius: 30px;
+}
