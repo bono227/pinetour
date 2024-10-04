@@ -1,4 +1,4 @@
-import { Header, Tour, Trip } from "./components";
+import { Header, Tour, Trip, Pricing, Footer, Order } from "./components";
 
 export const App = () => {
   return (
@@ -6,6 +6,9 @@ export const App = () => {
       <Header />
       <Trip />
       <Tour />
+      <Pricing />
+      <Order />
+      <Footer />
     </div>
   );
 };

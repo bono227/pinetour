@@ -6,3 +6,30 @@ export const destinations = [
   { id: "D5", title: "Amarbaysgalant monastery", location: "Bulgan" },
   { id: "D6", title: "Sukhbaatar square", location: "Ulaanbator" },
 ];
+
+const packs = [
+  {
+    name: "Starter Pack",
+    included: {
+      trip: true,
+      hotel: true,
+      breakfast: true,
+      lunch: true,
+      dinner: true,
+    },
+    price: 2100,
+  },
+  {
+    name: "Luxury Pack",
+    included: {
+      trip: true,
+      hotel: true,
+      breakfast: true,
+      lunch: true,
+      dinner: true,
+      flight: true,
+      cruiseTrip: 2, // number of cruise trips
+    },
+    price: 4200,
+  },
+];

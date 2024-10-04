@@ -21,4 +21,9 @@
   width: 692px;
   height: 845px;
   border-radius: 30px;
+  transition: 0.3s;
+}
+#tour-map img:hover {
+  box-shadow: 0px 0px 44px -10px rgba(0, 0, 0, 0.75);
+  scale: 1.03;
 }
