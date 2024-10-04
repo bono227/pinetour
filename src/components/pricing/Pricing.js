@@ -7,7 +7,10 @@ export const Pricing = () => {
   return (
     <div id="pricing-container">
       <h4>PRICING</h4>
-      <h2>Pricing of Our Agency</h2>
+      <h2>
+        Pricing of
+        <br /> Our Agency
+      </h2>
       <PricingList packs={packs} />
     </div>
   );

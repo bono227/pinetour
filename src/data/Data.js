@@ -7,6 +7,10 @@ export const destinations = [
   { id: "D6", title: "Sukhbaatar square", location: "Ulaanbator" },
 ];
 
+destinations.sort((a, b) => {
+  return a.id.localeCompare(b.id);
+});
+
 export const packs = [
   {
     name: "Starter Pack",
